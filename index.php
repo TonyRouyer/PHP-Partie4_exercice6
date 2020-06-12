@@ -1,6 +1,6 @@
 <?php
     function concatenation($name, $firstname, $age){
-        echo 'Bonjour ' . $name . ' ' . $firstname . ', tu as ' .  $age . 'ans.';
+        return 'Bonjour ' . $name . ' ' . $firstname . ', tu as ' .  $age . 'ans.';
         } 
 ?>
 <!DOCTYPE html>
@@ -11,6 +11,6 @@
         <title>partie 4 exercice 6</title>
     </head>
     <body>
-        <p><?php concatenation('Rouyer', 'tony', 24) ?></p>
+        <p><?= concatenation('Rouyer', 'Tony', 24) ?></p>
     </body>
 </html>
